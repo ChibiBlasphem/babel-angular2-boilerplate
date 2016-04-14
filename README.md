@@ -34,6 +34,20 @@ npm run watch
 npm run start
 ```
 
+### Development
+
+Folder ```client``` is for the client :
+- ```client/app``` JavaScript files of the application, following basicly this convention
+  - ```client/app/components``` for the Components
+  - ```client/app/services``` for the Services
+  - etc...
+- ```client/templates``` The html templates of the Components
+- ```client/css``` CSS files
+- etc...
+
+Folder ```server``` is for the server, build it like you always do (```server/app.js``` is the main entry point)
+
+
 ## Why do I did this boilerplate
 
 I did this project mainly because it's a pain to configure the project and dependencies every time I want to start a new project with those technologies.
